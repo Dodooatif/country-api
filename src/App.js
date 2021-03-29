@@ -4,11 +4,13 @@ import Countries from "./pages/Countries"
 import NavBar from "./components/NavBar"
 import Details from "./pages/Details"
 import Footer from "./components/Footer"
+import Search from "./components/Search"
 
 function App() {
   return (
     <main>
       <NavBar />
+      <Search/>
       <Switch>
         <Route path="/" component={Home} exact/>
         <Route path="/countries" component={Countries} exact/>

@@ -7,7 +7,7 @@ function Search() {
 
     return (
         
-       <form className="ui form">
+       <form className="ui form"  style={{background:"green" , display:"flex" ,justifyContent:"center"}}>
            <input
             type="text"
             placeholder="Search Country"

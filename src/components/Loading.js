@@ -1,8 +1,10 @@
 import React from 'react'
+import { HeartSpinner} from 'react-spinners-kit'
 
 function Loading() {
     return (
-        <div className="cube-spinner text-warning" style={{height: 50, width: 50}}>
+        <div style={{height: 50, width: 50}}>
+            <HeartSpinner/>
         </div>
     )
 }
